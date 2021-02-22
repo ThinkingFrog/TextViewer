@@ -1,0 +1,12 @@
+#include "menu.h"
+
+menu MENU {
+    POPUP "&File" {
+        MENUITEM "&Open", IDM_OPEN
+        MENUITEM "&Close", IDM_CLOSE
+        MENUITEM "&Exit", IDM_QUIT
+    }
+    POPUP "&View" {
+        MENUITEM "&Layout", IDM_LAYOUT
+    }
+}
